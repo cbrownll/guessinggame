@@ -15,7 +15,13 @@ namespace guessinggame
             {
                 // then they win
                 Console.WriteLine("You win!");
-            } else
+            }
+            else if (userGuess.Equals("0"))
+            { 
+                Console.WriteLine("Please follow all instructions");
+
+
+        } else
             {
                 // otherwise they lose
                 Console.WriteLine("You Lost");
